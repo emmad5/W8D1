@@ -13,3 +13,85 @@
  *= require_tree .
  *= require_self
  */
+
+ body {
+     background-color: mediumaquamarine;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .head {
+     display: flex;
+     position: relative;
+ }
+
+ .greeting {
+    font-size: 25px;
+ }
+
+ .greeting-h2 {
+     position: absolute;
+     top: 2em;
+ }
+ .logout {
+    position: absolute;
+    top: 200px;
+    text-decoration: none;
+    border: 1px black solid;
+    background-color: salmon;
+    background-image: linear-gradient(salmon, rgb(255, 170, 182));
+    border-radius: 5px;
+    color: black;
+    padding: 5px;    
+ }
+
+ .sign-up{
+    color: black;
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    border: 1px black solid;
+    padding: 3px;
+    background-color: salmon;
+    background-image: linear-gradient(salmon, rgb(255, 170, 182));
+
+    border-radius: 5px;
+ }
+.log-in{
+    margin-top: 20px;
+    padding: 3px;
+    color: black;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    text-decoration: none;
+    border: 1px black solid;
+    background-color: salmon;
+    background-image: linear-gradient(salmon, rgb(255, 170, 182));
+    border-radius: 5px;
+}
+.button {
+    text-decoration: none;
+    border: 1px black solid;
+    background-color: salmon;
+    background-image: linear-gradient(salmon, rgb(255, 170, 182));
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.session-link {
+    margin-top: 2em;
+}
+
+.form {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+.input {
+    margin: 10px;
+}
+
+#submit {
+   width: 80px; 
+   font-weight: bold;
+}
